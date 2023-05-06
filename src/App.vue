@@ -20,13 +20,7 @@
             <ActionBar @action="handleAction" />
 
             <div class="action-group">
-              <button
-                type="button"
-                class="action-btn action-randomize"
-                @click="handleGenerate"
-              >
-                {{ t('action.randomize') }}
-              </button>
+              
 
               <button
                 type="button"
@@ -41,13 +35,7 @@
                 }}
               </button>
 
-              <button
-                type="button"
-                class="action-btn action-multiple"
-                @click="() => generateMultiple()"
-              >
-                {{ t('action.downloadMultiple') }}
-              </button>
+             
             </div>
           </div>
 
