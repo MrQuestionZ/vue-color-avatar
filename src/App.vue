@@ -41,7 +41,7 @@
 
           <Footer />
 
-          <CodeModal :visible="codeVisible" @close="codeVisible = false" />
+         
 
           <DownloadModal
             :visible="downloadModalVisible"
