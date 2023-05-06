@@ -180,7 +180,7 @@ async function handleDownload() {
 }
 
 const flipped = ref(false)
-const codeVisible = ref(false)
+
 
 function handleAction(actionType: ActionType) {
   switch (actionType) {
