@@ -10,7 +10,7 @@
               <VueColorAvatar
                 ref="colorAvatarRef"
                 :option="avatarOption"
-                :size="280"
+                :size="480"
                 :style="{
                   transform: `rotateY(${flipped ? -180 : 0}deg)`,
                 }"
