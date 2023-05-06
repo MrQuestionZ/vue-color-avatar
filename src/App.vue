@@ -79,7 +79,6 @@ import { useI18n } from 'vue-i18n'
 import ActionBar from '@/components/ActionBar.vue'
 import Configurator from '@/components/Configurator.vue'
 import BatchDownloadModal from '@/components/Modal/BatchDownloadModal.vue'
-import CodeModal from '@/components/Modal/CodeModal.vue'
 import DownloadModal from '@/components/Modal/DownloadModal.vue'
 import VueColorAvatar, {
   type VueColorAvatarRef,
