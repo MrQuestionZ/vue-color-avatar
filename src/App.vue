@@ -208,13 +208,7 @@ function handleAction(actionType: ActionType) {
       })
       break
 
-    case ActionType.Code:
-      codeVisible.value = !codeVisible.value
-      recordEvent('action_view_code', {
-        event_category: 'action',
-        event_label: 'View Avatar Option Code',
-      })
-      break
+   
   }
 }
 
