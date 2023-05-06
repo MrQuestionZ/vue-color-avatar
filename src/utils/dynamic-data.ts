@@ -44,8 +44,7 @@ const widgetData: Data = {
   },
 
   [WidgetType.Clothes]: {
-    [ClothesShape.Collared]: () =>
-      import(`../assets/widgets/clothes/collared.svg?raw`),
+    [ClothesShape.Collared]: () => import(`../assets/widgets/clothes/collared.svg?raw`),
     [ClothesShape.Crew]: () => import(`../assets/widgets/clothes/crew.svg?raw`),
     [ClothesShape.Open]: () => import(`../assets/widgets/clothes/open.svg?raw`),
   },
@@ -60,10 +59,8 @@ const widgetData: Data = {
   [WidgetType.Eyebrows]: {
     [EyebrowsShape.Down]: () =>
       import(`../assets/widgets/eyebrows/down.svg?raw`),
-    [EyebrowsShape.Eyelashesdown]: () =>
-      import(`../assets/widgets/eyebrows/eyelashesdown.svg?raw`),
-    [EyebrowsShape.Eyelashesup]: () =>
-      import(`../assets/widgets/eyebrows/eyelashesup.svg?raw`),
+    [EyebrowsShape.Eyelashesdown]: () => import(`../assets/widgets/eyebrows/eyelashesdown.svg?raw`),
+    [EyebrowsShape.Eyelashesup]: () => import(`../assets/widgets/eyebrows/eyelashesup.svg?raw`),
     [EyebrowsShape.Up]: () => import(`../assets/widgets/eyebrows/up.svg?raw`),
   },
 
