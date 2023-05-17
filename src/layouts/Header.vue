@@ -2,7 +2,7 @@
   <header class="header">
     <Logo />
 
-    <h2 class="site-title">Color Avatar</h2>
+    <h2 class="site-title">NJAB Creator</h2>
 
     <div class="header-right">
       <a
@@ -12,14 +12,14 @@
       >
         <button
           type="button"
-          class="top-button"
+          class="close-button"
           @click="
             recordEvent('click_github', {
               event_category: 'click',
             })
           "
         >
-          <img :src="IconGitHub" alt="GitHub" />
+          <img :src="IconClose" alt="Close" />
           <span class="text">Close X</span>
         </button>
       </a>
@@ -28,7 +28,7 @@
 </template>
 
 <script lang="ts" setup>
-import IconGitHub from '@/assets/icons/icon-github.svg'
+import IconClose from '@/assets/icons/icon-close.svg'
 import Logo from '@/components/Logo.vue'
 import { recordEvent } from '@/utils/ga'
 </script>
