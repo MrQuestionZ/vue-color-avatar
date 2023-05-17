@@ -65,9 +65,9 @@
       @regenerate="generateMultiple"
       @close=";(avatarListVisible = false), (avatarList = [])"
     />
-
+ <Configurator />
     <Sider>
-      <Configurator />
+     
     </Sider>
   </main>
 </template>
