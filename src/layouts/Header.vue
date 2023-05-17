@@ -12,15 +12,9 @@
       >
         <button
           type="button"
-          class="close-button"
-          @click="
-            recordEvent('click_github', {
-              event_category: 'click',
-            })
-          "
-        >
+          class="close-button">
           <img :src="IconClose" alt="Close" />
-          <span class="text">Close X</span>
+          <span class="text">Sluiten</span>
         </button>
       </a>
     </div>
