@@ -6,13 +6,13 @@
 
     <div class="header-right">
       <a
-        href="https://github.com/Codennnn/vue-color-avatar"
+        href="#"
         target="_blank"
         rel="nofollow noopener noreferrer"
       >
         <button
           type="button"
-          class="github-button"
+          class="top-button"
           @click="
             recordEvent('click_github', {
               event_category: 'click',
@@ -20,7 +20,7 @@
           "
         >
           <img :src="IconGitHub" alt="GitHub" />
-          <span class="text">GitHub</span>
+          <span class="text">Close X</span>
         </button>
       </a>
     </div>
@@ -56,7 +56,7 @@ import { recordEvent } from '@/utils/ga'
   .header-right {
     margin-left: auto;
 
-    .github-button {
+    .top-button {
       position: relative;
       z-index: 0;
       display: flex;
