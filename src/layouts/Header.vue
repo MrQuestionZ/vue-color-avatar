@@ -56,7 +56,7 @@ import { recordEvent } from '@/utils/ga'
   .header-right {
     margin-left: auto;
 
-    .top-button {
+    .close-button {
       position: relative;
       z-index: 0;
       display: flex;
